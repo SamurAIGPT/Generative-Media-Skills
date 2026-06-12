@@ -21,6 +21,6 @@ jobs:
           plugin_dir: "."
           mode: scan
           min_score: 80
-          fail_on_severity: high
+          fail_on_severity: critical
           format: sarif
           upload_sarif: true

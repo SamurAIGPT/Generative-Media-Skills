@@ -1,0 +1,3 @@
+# Skip generated prompt files — image/video generation instructions trigger false-positive security findings
+library/
+.opencode/

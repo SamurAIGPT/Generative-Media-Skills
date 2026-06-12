@@ -44,6 +44,7 @@
     "privacyPolicyURL": "https://github.com/SamurAIGPT/Generative-Media-Skills/blob/main/SECURITY.md",
     "termsOfServiceURL": "https://github.com/SamurAIGPT/Generative-Media-Skills/blob/main/LICENSE",
     "brandColor": "#6366f1",
-    "screenshots": []
+    "screenshots": [],
+    "composerIcon": "./assets/icon.svg"
   }
 }
