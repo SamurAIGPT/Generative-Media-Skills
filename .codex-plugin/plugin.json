@@ -1,0 +1,49 @@
+{
+  "name": "generative-media-skills",
+  "version": "1.0.0",
+  "description": "13 expert skills for AI agents to generate images, videos, and audio using 100+ models \u2014 FLUX, Midjourney v7, Veo3, Kling 3.0, Suno, HunyuanVideo, and more. Powered by muapi.ai.",
+  "author": {
+    "name": "MuAPI",
+    "url": "https://github.com/SamurAIGPT"
+  },
+  "homepage": "https://muapi.ai",
+  "repository": "https://github.com/SamurAIGPT/Generative-Media-Skills",
+  "license": "MIT",
+  "privacyPolicyURL": "https://github.com/SamurAIGPT/Generative-Media-Skills/blob/main/SECURITY.md",
+  "termsOfServiceURL": "https://github.com/SamurAIGPT/Generative-Media-Skills/blob/main/LICENSE",
+  "keywords": [
+    "image-generation",
+    "video-generation",
+    "audio",
+    "ai",
+    "flux",
+    "midjourney",
+    "veo3",
+    "kling",
+    "suno",
+    "generative-ai",
+    "media",
+    "skills"
+  ],
+  "skills": "./library/",
+  "interface": {
+    "displayName": "Generative Media Skills",
+    "shortDescription": "Image, video & audio generation with 100+ AI models.",
+    "longDescription": "Expert skills for AI agents to generate professional-grade images, videos, and audio. Includes Cinema Director (cinematographic video generation), Nano-Banana (reasoning-driven image generation), UI Designer, Logo Creator, UGC Video Factory, AI Clipping, and 7 more. All powered by muapi.ai \u2014 FLUX, Midjourney v7, Veo3, Kling 3.0, Suno, HunyuanVideo, and more.",
+    "developerName": "MuAPI",
+    "category": "Content Creation",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use the muapi-cinema-director skill to create a cinematic product video.",
+      "Use the muapi-nano-banana skill to generate a high-quality image from this brief."
+    ],
+    "websiteURL": "https://muapi.ai",
+    "privacyPolicyURL": "https://github.com/SamurAIGPT/Generative-Media-Skills/blob/main/SECURITY.md",
+    "termsOfServiceURL": "https://github.com/SamurAIGPT/Generative-Media-Skills/blob/main/LICENSE",
+    "brandColor": "#6366f1",
+    "screenshots": []
+  }
+}
