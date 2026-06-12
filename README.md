@@ -1,6 +1,6 @@
 # 🎭 Generative Media Skills for AI Agents
 
-**The Ultimate Multimodal Toolset for Claude Code, Cursor, and Gemini CLI.**
+**The Ultimate Multimodal Toolset for Claude Code, Cursor, Gemini CLI, and OpenCode.**
 A high-performance, schema-driven architecture for AI agents to generate, edit, and display professional-grade images, videos, and audio — powered by the [muapi-cli](https://github.com/SamurAIGPT/muapi-cli).
 
 
@@ -212,6 +212,17 @@ bash library/motion/seedance-2/scripts/generate-seedance.sh \
 
 ---
 
+
+### OpenCode
+
+```bash
+# Clone the repo and set the MUAPI_API_KEY env var
+git clone https://github.com/SamurAIGPT/Generative-Media-Skills
+export MUAPI_API_KEY=your_key_here
+
+# Skills auto-load from .opencode/skills/ when you run opencode in this directory
+opencode
+```
 ## 🤖 MCP Server
 
 Run muapi as a **Model Context Protocol server** so Claude Desktop, Cursor, or any MCP-compatible agent can call generation tools directly — no shell scripts needed.
