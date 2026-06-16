@@ -141,7 +141,7 @@ muapi auth configure
 # Or pass directly
 muapi auth configure --api-key "YOUR_MUAPI_KEY"
 
-# Get your key at https://muapi.ai/dashboard
+# Get your key at https://muapi.ai/dashboard?utm_source=github&utm_medium=readme&utm_campaign=generative-media-skills
 ```
 
 ### 3. Install the Skills
