@@ -3,7 +3,7 @@
 [![Powered by MuAPI](https://img.shields.io/badge/Powered%20by-MuAPI-6366f1?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMSAxNHYtNGgtMnYtMmg0djZoLTJ6bTAtOFY2aDJ2MmgtMnoiLz48L3N2Zz4=)](https://muapi.ai?utm_source=github&utm_medium=badge&utm_campaign=generative-media-skills)
 
 
-**The Ultimate Multimodal Toolset for Claude Code, Cursor, Gemini CLI, and OpenCode.**
+**The Ultimate Multimodal Toolset for Claude Code, Cursor, Gemini CLI, OpenCode, and Autohand Code.**
 A high-performance, schema-driven architecture for AI agents to generate, edit, and display professional-grade images, videos, and audio — powered by the [muapi-cli](https://github.com/SamurAIGPT/muapi-cli).
 
 
@@ -56,7 +56,7 @@ Plus **41 ready-to-run workflow recipes** organized by output type — see [🎬
 
 ## 🎬 Recipe Pack
 
-Forty-one LLM-orchestrated workflow recipes that combine multiple `muapi-cli` calls into named end-to-end pipelines (e.g. *photo of person → 3D action figure*, *product photo → cinematic 10s ad*). Each skill is a SKILL.md the agent reads and follows; bring your own consuming agent (Claude Code, Cursor, MCP) — these are recipes, not bash wrappers.
+Forty-one LLM-orchestrated workflow recipes that combine multiple `muapi-cli` calls into named end-to-end pipelines (e.g. *photo of person → 3D action figure*, *product photo → cinematic 10s ad*). Each skill is a SKILL.md the agent reads and follows; bring your own consuming agent (Claude Code, Cursor, Autohand Code, MCP) — these are recipes, not bash wrappers.
 
 **Motion / Video (16)**
 
@@ -160,6 +160,23 @@ npx skills add SamurAIGPT/Generative-Media-Skills --skill muapi-media-generation
 # Install to specific agents
 npx skills add SamurAIGPT/Generative-Media-Skills --all -a claude-code -a cursor
 ```
+
+For Autohand Code, copy complete skill folders into the global or project skill path. The `.opencode/skills/` directory already contains a curated agent-ready set:
+
+```bash
+# Global install
+mkdir -p ~/.autohand/skills/
+cp -R .opencode/skills/* ~/.autohand/skills/
+
+# Project-level install
+mkdir -p .autohand/skills/
+cp -R .opencode/skills/* .autohand/skills/
+
+# Or install one nested skill directly
+cp -R library/visual/nano-banana ~/.autohand/skills/muapi-nano-banana
+```
+
+Autohand Code also supports `autohand --skill-install` for cataloged skills, with `--project` for workspace-level installs. Until this collection is listed there, use the direct copy paths above.
 
 ### 4. Generate Your First Image
 
@@ -318,6 +335,7 @@ muapi models list --category video --output-json
 Optimized for the next generation of AI development environments:
 - **Claude Code** — Direct terminal execution via tools + MCP server mode.
 - **Gemini CLI / Cursor / Windsurf** — Seamless integration as local scripts.
+- **Autohand Code** — Reads copied `SKILL.md` folders from `~/.autohand/skills/` or `.autohand/skills/`.
 - **MCP** — Full Model Context Protocol server with typed input/output schemas.
 - **CI/CD** — `--output-json`, `--jq`, semantic exit codes for scripting.
 
