@@ -18,6 +18,7 @@ A high-performance, schema-driven architecture for AI agents to generate, edit, 
 - [Awesome-Gemini-Omni-API-Prompts](https://github.com/Anil-matcha/Awesome-Gemini-Omni-API-Prompts) — Curated Gemini Omni prompts for video generation
 - [AI-Voice-Agent](https://github.com/Anil-matcha/AI-Voice-Agent) — Self-hosted AI voice agent for real-time voice conversations, sales calls, and customer support
 - [awesome-ai-image-models](https://github.com/Anil-matcha/awesome-ai-image-models) — compare AI image models by API, price & quality
+- [flux-3-video-api](https://github.com/SamurAIGPT/flux-3-video-api) — Python wrapper focused on FLUX 3 Text-to-Video and Image-to-Video
 - [ai-creator-academy](https://github.com/Anil-matcha/ai-creator-academy) — free curriculum teaching creators to monetize generative AI, built on these same skills
 - [Flux-3-Dev-API](https://github.com/Anil-matcha/Flux-3-Dev-API) — Python wrapper for Black Forest Labs' FLUX 3 (Dev variant) — text-to-image, image-to-image, text-to-video, image-to-video
 - [awesome-flux-3-api-prompts](https://github.com/Anil-matcha/awesome-flux-3-api-prompts) — FLUX 3 API guide, prompts, and parameters
