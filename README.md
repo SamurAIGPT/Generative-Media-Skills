@@ -14,6 +14,7 @@ A high-performance, schema-driven architecture for AI agents to generate, edit, 
 ## Related Projects
 
 - [MiniMax-H3-API](https://github.com/Anil-matcha/MiniMax-H3-API) — Python SDK for MiniMax H3 video-generation workflows on Muapi.
+- [awesome-minimax-h3-prompts](https://github.com/Anil-matcha/awesome-minimax-h3-prompts) — Prompt gallery and runnable examples for the MiniMax H3 skills.
 - [Wan-3.0-API](https://github.com/Anil-matcha/Wan-3.0-API) — Python SDK and MCP server for Wan 3.0-compatible video-generation workflows.
 - [Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) — Free self-hosted AI media studio — GUI alternative to these skills for the same model set
 - [Awesome-GPT-Image-2-API-Prompts](https://github.com/Anil-matcha/Awesome-GPT-Image-2-API-Prompts) — Curated GPT-Image-2 prompts to use with these skills
