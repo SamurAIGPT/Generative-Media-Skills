@@ -13,6 +13,8 @@ A high-performance, schema-driven architecture for AI agents to generate, edit, 
 
 ## Related Projects
 
+- [minimax-music-3-api](https://github.com/SamurAIGPT/minimax-music-3-api) — Python SDK for MiniMax Music 3.0 text-to-music generation on Muapi.
+- [awesome-minimax-music-3-prompts](https://github.com/Anil-matcha/awesome-minimax-music-3-prompts) — Curated song prompts and lyrics-formatting guide for MiniMax Music 3.0.
 - [MiniMax-H3-API](https://github.com/Anil-matcha/MiniMax-H3-API) — Python SDK for MiniMax H3 video-generation workflows on Muapi.
 - [awesome-minimax-h3-prompts](https://github.com/Anil-matcha/awesome-minimax-h3-prompts) — Prompt gallery and runnable examples for the MiniMax H3 skills.
 - [Wan-3.0-API](https://github.com/Anil-matcha/Wan-3.0-API) — Python SDK and MCP server for Wan 3.0-compatible video-generation workflows.
