@@ -32,6 +32,12 @@ A high-performance, schema-driven architecture for AI agents to generate, edit, 
 - [awesome-flux-3-api-prompts](https://github.com/Anil-matcha/awesome-flux-3-api-prompts) — FLUX 3 API guide, prompts, and parameters
 - [seedance-2.5-mcp](https://github.com/Anil-matcha/seedance-2.5-mcp) — MCP server for generating Seedance 2.5 Preview videos through MuAPI.
 - [seedance-2-mcp](https://github.com/Anil-matcha/seedance-2-mcp) — MCP server for generating Seedance 2 videos through MuAPI.
+- [Text-to-Speech-API](https://github.com/Anil-matcha/Text-to-Speech-API) — narration and dialogue API examples for media workflows.
+- [Speech-to-Text-API](https://github.com/Anil-matcha/Speech-to-Text-API) — transcription and audio-understanding API examples.
+- [Voice-Cloning-API](https://github.com/Anil-matcha/Voice-Cloning-API) — consent-aware speaking and singing voice workflows.
+- [Image-Enhancement-API](https://github.com/Anil-matcha/Image-Enhancement-API) — image enhancement examples for creative pipelines.
+- [Video-Utilities-API](https://github.com/Anil-matcha/Video-Utilities-API) — video upscaling and sound-generation utility examples.
+- [AI-3D-Model-API](https://github.com/Anil-matcha/AI-3D-Model-API) — 3D asset generation comparison and examples.
 
 ## ✨ Key Features
 
