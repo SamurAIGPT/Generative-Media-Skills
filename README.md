@@ -11,6 +11,9 @@ A high-performance, schema-driven architecture for AI agents to generate, edit, 
 
 ---
 
+<p align="center"><a href="https://www.youtube.com/watch?v=SOXsxqnQGlc"><img src="https://i.ytimg.com/vi/SOXsxqnQGlc/maxresdefault.jpg" width="720"></a></p>
+<p align="center"><a href="https://www.youtube.com/watch?v=SOXsxqnQGlc"><b>▶ Watch: Best AI Video Generator (API) in 2026 (Quality, Price, Uncensored, Editing)</b></a></p>
+
 ## Related Projects
 
 - [minimax-music-3-api](https://github.com/SamurAIGPT/minimax-music-3-api) — Python SDK for MiniMax Music 3.0 text-to-music generation on Muapi.
